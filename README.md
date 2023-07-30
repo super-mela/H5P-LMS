@@ -53,7 +53,7 @@
 ## About The Project
 
 <div align="center">
-      <img src="public/assets/screenshoot/1.png" alt="Logo" width="1600" height="1200">
+      <img src="public/assets/screenshoot/1.png" alt="Logo" width="1000" height="800">
 </div>
 
 Z-angel LMS (Learning Management System) is a powerful and versatile e-learning solution that combines the flexibility of H5P content types with the comprehensive features of a Learning Management System. It provides educators, trainers, and organizations with a seamless platform to create, deliver, and manage interactive and engaging learning content.
