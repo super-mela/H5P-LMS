@@ -53,7 +53,7 @@
 ## About The Project
 
 <div align="center">
-      <img src="public/assets/screenshoot/1.png" alt="Logo" width="400" height="400">
+      <img src="public/assets/screenshoot/1.png" alt="Logo" width="1600" height="1200">
 </div>
 
 Z-angel LMS (Learning Management System) is a powerful and versatile e-learning solution that combines the flexibility of H5P content types with the comprehensive features of a Learning Management System. It provides educators, trainers, and organizations with a seamless platform to create, deliver, and manage interactive and engaging learning content.
@@ -122,31 +122,31 @@ _Below is an example of how you can instruct your audience on installing and set
 To use Z-angel LMS there is no need any extra skill and knowledge. first you need to login to the system from the give user types, for example if you need to access as Administrator/ Teacher you just selcet those options from the `login as` list. from those user you can creat content and view content.
 
 <div align="center">
-      <img src="public/assets/screenshoot/2.png" alt="Logo" width="400" height="400">
+      <img src="public/assets/screenshoot/2.png" alt="Logo" width="600" height="400">
 </div>
 
 now you can click the create new content button then you can access the the editor window. from the list of diffrent content type you can select that one you are interested on and fill the requred information for the coures.(if the content type in not installed you can install by clicking get button)
 
 <div align="center">
-      <img src="public/assets/screenshoot/3.png" alt="Logo" width="400" height="400">
+      <img src="public/assets/screenshoot/3.png" alt="Logo" width="600" height="400">
 </div>
 
 the other option you can get from those users means Admin/Teacher you can see the content by clicking view content, from that you get a list of content that adds on the system. from this you can play, download, edit and delete the content.
 
 <div align="center">
-      <img src="public/assets/screenshoot/4.png" alt="Logo" width="400" height="400">
+      <img src="public/assets/screenshoot/4.png" alt="Logo" width="600" height="400">
 </div>
 
 the other login option is as student you can select the student option from the Login as button. if you are logged in as a sudent the option you can get is only View content no other thing.
 
 <div align="center">
-      <img src="public/assets/screenshoot/5.png" alt="Logo" width="400" height="400">
+      <img src="public/assets/screenshoot/5.png" alt="Logo" width="600" height="400">
 </div>
 
 After clicking the view content button you get alist of diffrent content that found in the system, but as a student the option you have is only play and download.
 
 <div align="center">
-      <img src="public/assets/screenshoot/6.png" alt="Logo" width="400" height="400">
+      <img src="public/assets/screenshoot/6.png" alt="Logo" width="600" height="400">
 </div>
 
 _For more examples, please refer to the [Documentation](https://example.com)_
