@@ -3,23 +3,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/super-mela/H5P-LMS">
+    <img src="public/LMS.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Melaku Birhanu H5P Project</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+   This project build with the aim of to impliment H5P learing managmet on SAP using react and nodeJs  
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Lumieducation/H5P-Nodejs-library"><strong>Explore the docs for H5P»</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/super-mela/H5P-LMS">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/super-mela/H5P-LMS/issues">Report Bug</a>
   </p>
 </div>
 
@@ -43,11 +41,9 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -56,18 +52,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Z-angel LMS][product-screenshot]]()
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Z-angel LMS (Learning Management System) is a powerful and versatile e-learning solution that combines the flexibility of H5P content types with the comprehensive features of a Learning Management System. It provides educators, trainers, and organizations with a seamless platform to create, deliver, and manage interactive and engaging learning content.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+With H5P LMS, instructors can easily design interactive courses and modules using a wide range of H5P content types, such as quizzes, presentations, interactive videos, interactive presentations, and more. These content types enable learners to actively participate in the learning process, enhancing their understanding and knowledge retention.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+One of the key advantages of using H5P LMS is its compatibility with various Learning Management Systems, making it easy to integrate into existing e-learning environments. Whether it's Moodle, WordPress, Drupal, or other supported platforms, H5P LMS smoothly integrates with the LMS, providing a seamless experience for both instructors and learners, so from it's reputaion of H5P it make Z-angel LMS more user frendly and easy access to all users.
 
-Use the `BLANK_README.md` to get started.
+The platform also offers robust analytics and reporting tools, allowing educators to track learners' progress, identify areas for improvement, and gain valuable insights into the effectiveness of their content. Additionally, H5P LMS supports gamification elements, badges, and certificates, further motivating learners and enhancing their learning experience.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,16 +68,12 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This project Built with diffrent frameworks and runtime enviroment. those are...
 
-* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![NodeJs][nodejs.org]][NodeJs-url]
+* [![ExpressJs][expressjs.com]][ExpressJs-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,12 +82,12 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+If you want to set up this project on your local machine. To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+This is how to install the framworks and RE and run the project in local machine.
+* nodeJs [https://nodejs.org](https://nodejs.org)
 * npm
   ```sh
   npm install npm@latest -g
@@ -108,18 +97,17 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/super-mela/H5P-LMS.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Start
+   ```sh
+   npm start
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -129,30 +117,39 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To use Z-angel LMS there is no need any extra skill and knowledge. first you need to login to the system from the give user types, for example if you need to access as Administrator/ Teacher you just selcet those options from the `login as` list. from those user you can creat content and view content.
+
+<div align="center">
+      <img src="public/assets/screenshoot/2.png" alt="Logo" width="80" height="80">
+</div>
+
+now you can click the create new content button then you can access the the editor window. from the list of diffrent content type you can select that one you are interested on and fill the requred information for the coures.(if the content type in not installed you can install by clicking get button)
+
+<div align="center">
+      <img src="public/assets/screenshoot/3.png" alt="Logo" width="80" height="80">
+</div>
+
+the other option you can get from those users means Admin/Teacher you can see the content by clicking view content, from that you get a list of content that adds on the system. from this you can play, download, edit and delete the content.
+
+<div align="center">
+      <img src="public/assets/screenshoot/4.png" alt="Logo" width="80" height="80">
+</div>
+
+the other login option is as student you can select the student option from the Login as button. if you are logged in as a sudent the option you can get is only View content no other thing.
+
+<div align="center">
+      <img src="public/assets/screenshoot/5.png" alt="Logo" width="80" height="80">
+</div>
+
+After clicking the view content button you get alist of diffrent content that found in the system, but as a student the option you have is only play and download.
+
+<div align="center">
+      <img src="public/assets/screenshoot/6.png" alt="Logo" width="80" height="80">
+</div>
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -184,31 +181,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+contact name - [Melaku Birhanu](https://www.linkedin.com/in/melaku-birhanu-187916236/) - genuieman@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+Project Link: [https://github.com/super-mela/H5P-LMS](https://github.com/super-mela/H5P-LMS)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -224,7 +201,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: public/assets/screenshoot//screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
@@ -240,4 +217,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[NodeJs-url]: https://nodejs.org 
+[ExpressJs-url]: https://expressjs.com
